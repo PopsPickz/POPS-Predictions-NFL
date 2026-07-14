@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="POPS Predictions NFL touchdown scorer and moneyline predictions."
+  />
+
+  <title>POPS Predictions NFL</title>
+
+  <link rel="stylesheet" href="variables.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!--
+  =========================================================
+  HEADER
+  =========================================================
+  -->
+
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a
+        href="#home"
+        class="brand"
+        aria-label="POPS Predictions NFL home"
+      >
+        <div class="brand-mark">
+          P
+        </div>
+
+        <div class="brand-copy">
+          <strong>POPS PREDICTIONS</strong>
+          <span>NFL</span>
+        </div>
+      </a>
+
+      <button
+        type="button"
+        class="menu-button"
+        id="menuButton"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <nav
+        class="main-navigation"
+        id="mainNavigation"
+        aria-label="Main navigation"
+      >
+        <a href="#home">Home</a>
+        <a href="#touchdowns">Top 25 TDs</a>
+        <a href="#moneyline">Moneyline</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!--
+  =========================================================
+  MAIN
+  =========================================================
+  -->
+
+  <main>
+
+    <!-- HERO -->
+
+    <section
+      class="hero-section"
+      id="home"
+    >
+      <div class="hero-glow"></div>
+
+      <div class="hero-content">
+        <p class="section-kicker">
+          POPS PREDICTIONS NFL
+        </p>
+
+        <h1>
+          Touchdown Pickz.
+          <span>Moneyline Winners.</span>
+        </h1>
+
+        <p class="hero-description">
+          Weekly Top 25 touchdown scorer predictions and
+          POPS moneyline picks powered by matchup data.
+        </p>
+
+        <div class="hero-actions">
+          <a
+            href="#touchdowns"
+            class="primary-button"
+          >
+            View Top 25 TD Pickz
+          </a>
+
+          <a
+            href="#moneyline"
+            class="secondary-button"
+          >
+            View Moneyline Pickz
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-summary">
+
+        <div>
+          <span>🔥</span>
+          <strong>Top 25</strong>
+          <small>TD Scorers</small>
+        </div>
+
+        <div>
+          <span>💰</span>
+          <strong>Every Game</strong>
+          <small>Moneyline Pick</small>
+        </div>
+
+        <div>
+          <span>📊</span>
+          <strong>5 Factors</strong>
+          <small>Matchup Formula</small>
+        </div>
+
+      </div>
+    </section>
+
+    <!--
+    =======================================================
+    TOP 25 TOUCHDOWN SCORERS
+    =======================================================
+    -->
+
+    <section
+      class="content-section"
+      id="touchdowns"
+    >
+      <div class="section-heading">
+
+        <div>
+          <p class="section-kicker">
+            WEEKLY TOUCHDOWN PREDICTIONS
+          </p>
+
+          <h2>
+            🔥 Top 25 TD Scorers This Week
+          </h2>
+
+          <p>
+            Ranked by POPS TD Score, matchup, usage and
+            scoring opportunity.
+          </p>
+        </div>
+
+        <button
+          type="button"
+          class="info-button"
+          id="tdFormulaButton"
+        >
+          How We Score TDs
+        </button>
+
+      </div>
+
+      <div
+        class="featured-td-grid"
+        id="featuredTdGrid"
+      >
+
+        <article class="td-player-card featured">
+          <div class="rank-badge">
+            1
+          </div>
+
+          <div class="player-photo-placeholder">
+            👤
+          </div>
+
+          <div class="player-card-content">
+            <span class="player-position">
+              RB
+            </span>
+
+            <h3>
+              Player Name
+            </h3>
+
+            <p>
+              Team vs Opponent
+            </p>
+
+            <div class="td-score-grid">
+
+              <div>
+                <span>POPS TD Score</span>
+                <strong>--</strong>
+              </div>
+
+              <div>
+                <span>TD Probability</span>
+                <strong>--%</strong>
+              </div>
+
+            </div>
+
+            <div class="stars">
+              ☆☆☆☆☆
+            </div>
+
+            <ul class="reason-list">
+              <li>Waiting for weekly projections</li>
+              <li>Red-zone and goal-line data</li>
+              <li>Opponent matchup analysis</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="td-player-card featured">
+          <div class="rank-badge silver">
+            2
+          </div>
+
+          <div class="player-photo-placeholder">
+            👤
+          </div>
+
+          <div class="player-card-content">
+            <span class="player-position">
+              WR
+            </span>
+
+            <h3>
+              Player Name
+            </h3>
+
+            <p>
+              Team vs Opponent
+            </p>
+
+            <div class="td-score-grid">
+
+              <div>
+                <span>POPS TD Score</span>
+                <strong>--</strong>
+              </div>
+
+              <div>
+                <span>TD Probability</span>
+                <strong>--%</strong>
+              </div>
+
+            </div>
+
+            <div class="stars">
+              ☆☆☆☆☆
+            </div>
+
+            <ul class="reason-list">
+              <li>Waiting for weekly projections</li>
+              <li>Target-share analysis</li>
+              <li>Red-zone matchup analysis</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="td-player-card featured">
+          <div class="rank-badge bronze">
+            3
+          </div>
+
+          <div class="player-photo-placeholder">
+            👤
+          </div>
+
+          <div class="player-card-content">
+            <span class="player-position">
+              TE
+            </span>
+
+            <h3>
+              Player Name
+            </h3>
+
+            <p>
+              Team vs Opponent
+            </p>
+
+            <div class="td-score-grid">
+
+              <div>
+                <span>POPS TD Score</span>
+                <strong>--</strong>
+              </div>
+
+              <div>
+                <span>TD Probability</span>
+                <strong>--%</strong>
+              </div>
+
+            </div>
+
+            <div class="stars">
+              ☆☆☆☆☆
+            </div>
+
+            <ul class="reason-list">
+              <li>Waiting for weekly projections</li>
+              <li>End-zone target analysis</li>
+              <li>Defense versus position</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+
+      <div
+        class="td-table-wrapper"
+        id="tdTableWrapper"
+      >
+        <table class="td-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Player</th>
+              <th>Pos</th>
+              <th>Team</th>
+              <th>Opponent</th>
+              <th>POPS Score</th>
+              <th>TD %</th>
+            </tr>
+          </thead>
+
+          <tbody id="tdTableBody">
+            <tr>
+              <td colspan="7">
+                Weekly Top 25 projections will load here.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!--
+    =======================================================
+    MONEYLINE PICKS
+    =======================================================
+    -->
+
+    <section
+      class="content-section moneyline-section"
+      id="moneyline"
+    >
+      <div class="section-heading">
+
+        <div>
+          <p class="section-kicker">
+            WEEKLY GAME PREDICTIONS
+          </p>
+
+          <h2>
+            💰 POPS Moneyline Pickz
+          </h2>
+
+          <p>
+            Every matchup is compared using five clear
+            categories.
+          </p>
+        </div>
+
+        <button
+          type="button"
+          class="info-button"
+          id="moneylineFormulaButton"
+        >
+          How We Score Games
+        </button>
+
+      </div>
+
+      <div
+        class="moneyline-grid"
+        id="moneylineGrid"
+      >
+
+        <article class="moneyline-card">
+
+          <div class="moneyline-card-header">
+            <span>Week 1</span>
+            <strong>Game Time TBD</strong>
+          </div>
+
+          <div class="moneyline-matchup">
+
+            <div class="moneyline-team">
+              <div class="team-logo-placeholder">
+                NFL
+              </div>
+
+              <strong>Away Team</strong>
+            </div>
+
+            <span class="versus">
+              @
+            </span>
+
+            <div class="moneyline-team">
+              <div class="team-logo-placeholder">
+                NFL
+              </div>
+
+              <strong>Home Team</strong>
+            </div>
+
+          </div>
+
+          <div class="moneyline-comparison">
+
+            <div class="comparison-row">
+              <span>Better Passer</span>
+              <strong>—</strong>
+            </div>
+
+            <div class="comparison-row">
+              <span>Better Receivers</span>
+              <strong>—</strong>
+            </div>
+
+            <div class="comparison-row">
+              <span>Better Rushing</span>
+              <strong>—</strong>
+            </div>
+
+            <div class="comparison-row">
+              <span>Avg. Points/Game</span>
+              <strong>—</strong>
+            </div>
+
+            <div class="comparison-row">
+              <span>Better Ranked Defense</span>
+              <strong>—</strong>
+            </div>
+
+          </div>
+
+          <div class="moneyline-result">
+
+            <div>
+              <span>POPS PICK</span>
+              <strong>Waiting for prediction</strong>
+            </div>
+
+            <div>
+              <span>CONFIDENCE</span>
+              <strong>--%</strong>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!--
+  =========================================================
+  FORMULA MODAL
+  =========================================================
+  -->
+
+  <div
+    class="formula-modal"
+    id="formulaModal"
+    aria-hidden="true"
+  >
+    <div
+      class="formula-modal-backdrop"
+      id="formulaModalBackdrop"
+    ></div>
+
+    <section
+      class="formula-modal-panel"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="formulaModalTitle"
+    >
+      <button
+        type="button"
+        class="modal-close-button"
+        id="formulaModalCloseButton"
+        aria-label="Close formula explanation"
+      >
+        ×
+      </button>
+
+      <h2 id="formulaModalTitle">
+        POPS Formula
+      </h2>
+
+      <div id="formulaModalContent">
+        Formula information will appear here.
+      </div>
+    </section>
+  </div>
+
+  <!--
+  =========================================================
+  FOOTER
+  =========================================================
+  -->
+
+  <footer class="site-footer">
+    <strong>
+      ⭐ POPS Predictions NFL
+    </strong>
+
+    <span>
+      Real data. POPS Pickz.
+    </span>
+  </footer>
+
+  <!--
+  =========================================================
+  JAVASCRIPT
+  =========================================================
+  -->
+
+  <script src="app.js"></script>
+
+</body>
+</html>
