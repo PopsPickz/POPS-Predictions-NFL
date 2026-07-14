@@ -1,1 +1,180 @@
-variables 
+/*
+=========================================================
+POPS PREDICTIONS NFL — DESIGN VARIABLES
+File: variables.css
+=========================================================
+*/
+
+:root {
+  /*
+  =======================================================
+  COLORS
+  =======================================================
+  */
+
+  --color-background: #050505;
+  --color-background-soft: #0a0a0a;
+
+  --color-panel: #111111;
+  --color-panel-soft: #171717;
+  --color-panel-deep: #0b0b0b;
+
+  --color-orange: #ff6a00;
+  --color-orange-light: #ff982e;
+  --color-orange-dark: #c94f00;
+
+  --color-gold: #ffc15a;
+  --color-gold-soft: #ffe0a3;
+
+  --color-text: #f5f5f5;
+  --color-text-soft: #d7d7d7;
+  --color-muted: #9f9f9f;
+
+  --color-success: #68e368;
+  --color-danger: #ff4d4d;
+  --color-warning: #ffd34d;
+  --color-info: #4da3ff;
+
+  --color-line: rgba(255, 106, 0, 0.5);
+  --color-line-soft: rgba(255, 255, 255, 0.1);
+  --color-line-strong: rgba(255, 152, 46, 0.78);
+
+  /*
+  =======================================================
+  GRADIENTS
+  =======================================================
+  */
+
+  --gradient-page:
+    radial-gradient(
+      circle at top right,
+      rgba(255, 106, 0, 0.12),
+      transparent 34%
+    ),
+    linear-gradient(
+      180deg,
+      #050505 0%,
+      #090909 55%,
+      #050505 100%
+    );
+
+  --gradient-panel:
+    linear-gradient(
+      145deg,
+      rgba(25, 25, 25, 0.98),
+      rgba(10, 10, 10, 0.98)
+    );
+
+  --gradient-orange:
+    linear-gradient(
+      135deg,
+      var(--color-orange),
+      var(--color-orange-light)
+    );
+
+  --gradient-card-highlight:
+    linear-gradient(
+      180deg,
+      rgba(255, 106, 0, 0.08),
+      transparent 55%
+    );
+
+  /*
+  =======================================================
+  TYPOGRAPHY
+  =======================================================
+  */
+
+  --font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.4rem;
+  --font-size-2xl: 1.9rem;
+  --font-size-3xl: 2.65rem;
+  --font-size-hero: clamp(2.7rem, 8vw, 5.4rem);
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  --line-height-tight: 1.05;
+  --line-height-normal: 1.5;
+  --line-height-loose: 1.7;
+
+  /*
+  =======================================================
+  SPACING
+  =======================================================
+  */
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 2rem;
+  --space-8: 2.5rem;
+  --space-9: 3rem;
+  --space-10: 4rem;
+
+  /*
+  =======================================================
+  SIZE
+  =======================================================
+  */
+
+  --page-width: 1440px;
+  --content-width: 1280px;
+  --header-height: 84px;
+
+  /*
+  =======================================================
+  RADIUS
+  =======================================================
+  */
+
+  --radius-small: 10px;
+  --radius-medium: 16px;
+  --radius-large: 24px;
+  --radius-extra-large: 34px;
+  --radius-round: 999px;
+
+  /*
+  =======================================================
+  SHADOWS
+  =======================================================
+  */
+
+  --shadow-small:
+    0 8px 20px rgba(0, 0, 0, 0.28);
+
+  --shadow-medium:
+    0 16px 45px rgba(0, 0, 0, 0.44);
+
+  --shadow-orange:
+    0 0 26px rgba(255, 106, 0, 0.2);
+
+  --shadow-orange-strong:
+    0 0 38px rgba(255, 106, 0, 0.35);
+
+  /*
+  =======================================================
+  TRANSITIONS
+  =======================================================
+  */
+
+  --transition-fast: 160ms ease;
+  --transition-normal: 260ms ease;
+}
